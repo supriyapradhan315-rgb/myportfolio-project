@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
-const roles = ['Final Year CS Student', 'Full Stack Developer', 'React Enthusiast'];
+const roles = [ 'Full Stack Developer', 'React Enthusiast'];
 
 export default function Hero() {
   const [index, setIndex] = useState(0);
@@ -50,7 +50,7 @@ export default function Hero() {
         <div className="glass-card profile-card">
           <img src="image2.jpg" alt="Profile" />
           <div>
-            <h3>Final Year CS Student</h3>
+            <h3> CS Student </h3>
             <p>Building user-friendly web apps with modern UI and backend APIs.</p>
           </div>
         </div>
