@@ -1,5 +1,9 @@
 import { useEffect, useState } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import profile from '../assets/image2.jpg';
+import resume from '../assets/resume.png';
+
+
 
 const roles = [ 'Full Stack Developer', 'React Enthusiast'];
 
@@ -34,7 +38,7 @@ export default function Hero() {
             I build polished web experiences with React, Node, and MongoDB. I love crafting clean interfaces, modern developer tools, and learning new technologies every day.
           </p>
           <div className="hero-actions">
-            <a className="button" href="resume.png" target="_blank" rel="noreferrer">
+            <a className="button" href={resume} target="_blank" rel="noreferrer">
               Download Resume
             </a>
             <div className="social-links">
@@ -48,7 +52,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="glass-card profile-card">
-          <img src="image2.jpg" alt="Profile" />
+          <img src={profile} alt="Profile" />
           <div>
             <h3> CS Student </h3>
             <p>Building user-friendly web apps with modern UI and backend APIs.</p>
