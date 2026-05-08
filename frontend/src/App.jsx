@@ -27,7 +27,7 @@ function App() {
         const { data } = await api.get('/api/projects');
         setProjects(data.length ? data : sampleProjects);
       } catch (error) {
-        toast.error('Could not load projects. Using sample data.');
+        console.log(error);
         setProjects(sampleProjects);
       } finally {
         setLoading(false);
