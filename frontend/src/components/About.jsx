@@ -5,7 +5,7 @@ export default function About() {
         <div className="section-header">
           <h2 className="section-title">About Me</h2>
           <p className="section-subtitle">
-            I am a final year Computer Science student passionate about building full stack applications with great user experiences and solid backend architecture.
+            I am a Computer Science student passionate about building full stack applications with great user experiences and solid backend architecture.
           </p>
         </div>
         <div className="about-grid">
@@ -18,7 +18,7 @@ export default function About() {
             </div>
             <div className="info-block">
               <h3>Education</h3>
-              <p>Btech Computer Science (2nd year)</p>
+              <p>Btech Computer Science (3rd year)</p>
               <p>Gandhi Engineering college</p>
             </div>
           </div>

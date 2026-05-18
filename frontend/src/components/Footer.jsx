@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="footer glass-card">
       <div className="container">
         <p>Built with React, Node.js, Express, and MongoDB.</p>
-        <p>© {new Date().getFullYear()} Final Year CS Student Portfolio</p>
+        <p>© {new Date().getFullYear()} CS Student Portfolio</p>
       </div>
     </footer>
   );
